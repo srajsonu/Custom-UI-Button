@@ -10,8 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    
+    @IBOutlet private var topCustomButton: CustomButton!
     var bottomCustomButton = CustomButton()
-    var topCustomButton = CustomButton()
     
     
     override func viewDidLoad() {
